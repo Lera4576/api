@@ -1,8 +1,16 @@
-# React + Vite
+# API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This application allows users to manage their albums efficiently. It interacts with an API to store user data and album information, enabling users to create, view, edit, and delete their albums.
 
-Currently, two official plugins are available:
+## Key Features
+- **User Authentication**: Secure login and registration for users.
+- **Album Management**: Users can create, update, and delete their albums.
+- **Data Storage**: All user data and album details are securely stored via an API.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: For building the user interface.
+- **Node.js**: For the backend server handling API requests.
+
+
