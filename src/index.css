@@ -1,0 +1,61 @@
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(167, 60, 60);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+ a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* body {
+
+  background-color: #ffffff;
+} */
+
+body {
+  height: 100vh; 
+  margin: 0; 
+  padding: 40px; 
+  box-sizing: border-box; 
+}
+
+.nav-link {
+  text-decoration: none; 
+  margin-right: 30px; 
+}
+
+.nav-link:last-child {
+  margin-right: 0; 
+}
+
+/* App.css */
+.error {
+  display: flex; /* Используем Flexbox */
+  flex-direction: column; /* Вертикальное выравнивание */
+  align-items: center; /* Центрируем по горизонтали */
+  justify-content: center; /* Центрируем по вертикали */
+  height: 100vh; /* Высота на всю высоту окна */
+  text-align: center; 
+}
+
+.error h2 {
+  font-size: 50px; 
+}
+
+.error p{
+  font-size: 40px;
+}
